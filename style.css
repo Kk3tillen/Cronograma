@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 80%;
+    text-align: center;
+    margin: 10px;
+}
+
+th {
+    padding: 15px;
+    background-color: rgb(238, 238, 238);
+    font-weight: bold;
+    border: 1px solid rgb(208, 208, 208);
+    border-bottom: 3px solid rgb(227, 227, 227);
+}
+
+td {
+    padding: 20px;
+}
+
+p {
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+}
+
+table, td {
+    border: 1px solid rgb(208, 208, 208);
+    border-collapse: collapse;
+}
+
+.Modalidade1 {
+    background-color: rgb(34, 176, 176);
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+
+}
+
+.Modalidade2 {
+    background-color: rgb(18, 211, 86);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.Modalidade3 {
+    background-color: rgb(194, 197, 12);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.Modalidade4 {
+    background-color: rgb(143, 8, 174);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+}
+.Modalidade5 {
+    background-color: rgb(188, 8, 98);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.break{
+    background-color: rgb(190, 60, 17);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+}
+.none{
+    background-color: rgb(236, 236, 236);
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.time{
+    font-weight: lighter;
+    font-size: 14px;
+    padding-top: 4px;
+}
+.name{
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+}
